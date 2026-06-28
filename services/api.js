@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 import { clearToken, getToken } from "@/utils/token";
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL,
+  baseURL: "/api/proxy",
   timeout: 20000
 });
 
